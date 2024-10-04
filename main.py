@@ -14,4 +14,4 @@ vendas = float(input("Informe o valor em vendas: "))
 comissao, pagamento = calcula_pagamento(salario, vendas)
 
 # Escreve o resultado na tela
-print("{0} obteve {1:.2f} de comissao e vai receber {2:.2f}".format(nome, comissao, pagamento))
+print("{0} obteve R$ {1:.2f} de comissao e vai receber R$ {2:.2f}".format(nome, comissao, pagamento))
